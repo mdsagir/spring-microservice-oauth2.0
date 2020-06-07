@@ -23,6 +23,7 @@ public class BookDetailsController {
                                @PathVariable("quantity")
                                        int quantity) {
 
+
         Book bookPrice = bookPriceProxy.book(name);
 
         bookPrice.setPrice(bookPrice.getPrice() * quantity);
