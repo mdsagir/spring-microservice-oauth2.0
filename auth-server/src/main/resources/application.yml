@@ -1,0 +1,25 @@
+#server:
+#  port: 8001
+#
+#spring:
+#  security:
+#    user:
+#      name: allen
+#      password: pass
+#      roles: ADMIN,USER
+#
+#security:
+#  oauth2:
+#    client:
+#      client-id: mobile
+#      client-secret: pin
+#      access-token-validity-seconds: 3600
+#      authorized-grant-types: refresh_token,authorization_code,password,client_credentials
+#      scope: READ,WRITE
+#
+#
+#
+#
+#
+#
+#

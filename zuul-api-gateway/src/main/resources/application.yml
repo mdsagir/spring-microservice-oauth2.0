@@ -1,0 +1,30 @@
+#server:
+#  port: 8082
+#spring:
+#  application-name: zuul-api-gateway
+#zuul:
+#  proxy:
+#    addProxyHeaders: true
+#  sensitive-headers:
+#  routes:
+#    unsecured-backend-sample:
+#      path: /unsecured-backend-sample/**
+#      url: http://localhost:9008
+#    authorized-backend-sample:
+#      path: /authorized-backend-sample/**
+#      url: http://localhost:9008/
+#    user-role-secured-backend-sample:
+#      path: /user-role-secured-backend-sample/**
+#      url: http://localhost:9008/
+#    xxx-role-secured-backend-sample:
+#      path: /xxx-role-secured-backend-sample/**
+#      url: http://localhost:9008/
+#security:
+#  oauth2:
+#    client:
+#      accessTokenUri: http://localhost:9999/uaa/oauth/token
+#      userAuthorizationUri: http://localhost:9999/uaa/oauth/authorize
+#      clientId: acme
+#      clientSecret: acmesecret
+#    resource:
+#      userInfoUri: http://localhost:9999/uaa/user
